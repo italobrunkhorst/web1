@@ -1,0 +1,52 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="lightbox2-2.11.4/dist/css/lightbox.css">
+    <script src="lightbox2-2.11.4/dist/js/lightbox.js"></script>
+    <script src="lightbox2-2.11.4/dist/js/lightbox-plus-jquery.min.js"></script>
+</head>
+<body>
+    <div id="cabecalho">
+        <header>
+            <img src="img/pngwing.com (1).png" alt="Logo da Cafeteria" id="logo">
+        </header>
+        <div id="dropdown">
+            <button id="dropdown-button" onclick="clickMenu()"><img src="img/cardapio.png" alt=""></button>
+            <ul id="menu">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="historia.html">Historia</a></li>
+                <li><a href="galeria.html">Galeria</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="galeria">
+        <a href="img/brigadeiro.jfif" data-lightbox="fotos" data-title="Brigadeiro""><img src="img/brigadeiro.jfif" alt="brigadeiro" class="galeria" id="brigadeiro"></a>
+        <a href="img/torta.jfif" data-lightbox="fotos" data-title="Torta"><img src="img/torta.jfif" alt="torta" class="galeria"></a>
+    </div>
+    <div class="segunda_galeria">
+        <a href="img/torta2.jfif" data-lightbox="fotos" data-title="Torta de chocolate"><img src="img/torta2.jfif" alt="torta 2" class="segunda_galeria"></a>
+        <a href="img/torta_banana.jfif" data-lightbox="fotos" data-title="Torta de Banana"><img src="img/torta_banana.jfif" alt="torta de banana" class="segunda_galeria"></a>
+    </div>
+
+    <footer>
+        <p>Cafeteria</p>
+        <p>Rua Darnerys, 923, Smooville - Eregor/PR</p>
+        <p>Telefone: (99) 3431-0022</p>
+        <img src="img/instagram.png" alt="Instagram" class="icons">
+        <img src="img/youtube.png" alt="Youtube" class="icons">
+    </footer>
+    <script>
+        function clickMenu() {
+            if (menu.style.display == 'block') {
+                menu.style.display = 'none';
+            } else {
+                menu.style.display = 'block';
+            }
+        }
+    </script>
+</body>
+</html>

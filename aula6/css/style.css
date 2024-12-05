@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+}
+body{
+    justify-content: space-between;
+    font-family: cursive;
+    background-image: url('img/fundo2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+    background-color: white;
+}
+header{
+    width: 100%;
+    height: 150px;
+    background-color:#c78d83;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+footer{
+    width: 100%;
+    height: 120px;
+    background-color:#e3b3a8;
+    text-align: center;
+    align-items: center;
+}
+.icons{
+    margin-top: 10px;
+    width: 32px;
+}
+#corpo{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+#corpo img{
+    margin: 40px;
+    margin-right: 150px;
+    border-radius: 30%;
+    box-shadow: 30px 10px 30px rgb(114, 113, 113);
+    height: 450px;
+}
+#logo{
+    height: 150px;
+    width: 150px;
+}
+#menu{
+    background-color: #e3b3a8;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    justify-content:space-around;
+    list-style: none;
+}
+li, a{
+    padding-top: 20px;
+    color:#904039;
+    text-decoration: none;
+    font-size: 25px;
+}
+#historia{
+    text-align: center;
+    margin: 60px 500px 60px 500px;
+}
+.galeria{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin: 50px 30px ;
+    border-radius: 10px;
+    height: 300px;
+}
+#brigadeiro{
+    height: 300px;
+    width: 450px
+}
+.segunda_galeria{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin: 50px 30px ;
+    border-radius: 10px;
+    height: 300px;
+}
+form{
+    flex-direction: column;
+    display: flex;
+    width: 300px;
+    margin: 60px;
+    margin-left: 70px;
+}
+label, input, textarea{
+    margin-bottom: 10px;
+    width: 100%;
+}
+input, textarea{
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+textarea{
+    padding: 30px;
+}
+button{
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 70px;
+}
+#container{
+    display: flex;
+}
+iframe{
+    margin: 50px;
+    margin-left: 200px;
+    border-radius: 10px;
+}
