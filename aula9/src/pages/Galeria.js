@@ -1,6 +1,6 @@
 import React from "react";
 import 'lightbox2/dist/css/lightbox.css';
-import 'lightbox2/dist/js/lightbox-plus-jquery.js';
+import 'lightbox2/dist/js/lightbox-plus-jquery.js'; //tem que colar a pasta do lightbox na pasta raiz
 import '../css/style.css';
 
 function Galeria() {
