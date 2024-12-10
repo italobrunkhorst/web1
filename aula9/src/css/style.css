@@ -47,7 +47,30 @@ footer{
     border-radius: 30%;
     box-shadow: 30px 10px 30px rgb(114, 113, 113);
     height: 450px;
+    /*animation: animacao-img 5s infinite;*/
 }
+/*@keyframes animacao-img {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+}
+h1{
+    animation: animacao-h1 3s;
+}
+@keyframes animacao-h1{
+    from {
+        margin-left: 100%;
+        width: 300%;
+      }
+    
+      to {
+        margin-left: 0%;
+        width: 100%;
+      }
+}*/
 #logo{
     height: 150px;
     width: 150px;
